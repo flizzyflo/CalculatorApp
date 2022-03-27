@@ -36,4 +36,8 @@ button_clear = Button(text="Clear input", command= lambda: click_delete(data_inp
 button_comma = Button(text=",", command=lambda: click_action(input=".", data_input= data_input_widget), **OPERATION_BUTTON_STYLE).grid(row=7, column=0)
 
 
-root.mainloop()
+def main():
+    root.mainloop()
+
+if __name__ == "__main__":
+    main()
