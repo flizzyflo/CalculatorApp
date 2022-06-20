@@ -1,5 +1,7 @@
-
 from tkinter import END
+
+"""Defining the buttons within this file. Button functions are referred to in the calculator GUI file."""
+
 
 addition_check, minus_check, multiplication_check, division_check = 0, 0, 0, 0
 

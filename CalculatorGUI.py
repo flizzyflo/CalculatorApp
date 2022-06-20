@@ -1,13 +1,12 @@
 from tkinter import *
 from ButtonFunctions import click_action, click_add, click_comma, click_delete, click_division, click_equal, click_minus, click_multiplication
+from Settings import *
 
+"""Main file, creating the GUI with all buttons and other widgets."""
 
 root = Tk()
 root.title("Calculator")
 
-FONT= ("Calibri", 15, "bold")
-OPERATION_BUTTON_STYLE = {"borderwidth": 2, "width": 8, "height": 3, "activebackground": "#f5a742", "background": "orange", "fg":"black", "font": FONT, "relief": "groove", "borderwidth": 1}
-BUTTON_STYLE = {"borderwidth": 2, "background":"black", "width": 8, "height": 3,"activebackground": "#4a4642", "fg": "white", "font": FONT, "relief": "groove", "borderwidth": 1}
 
 data_input_widget = Entry(root, width=35, borderwidth=2, font=FONT)
 data_input_widget.grid(row=0, columnspan=4, rowspan=2, sticky="NSWE")
